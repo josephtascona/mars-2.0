@@ -60,7 +60,7 @@ class Plateau < MissionControl
     rovers = []
     rovers << @rover_name
     rovers.each do |x|
-      puts "The rover is at #{rovers[x].x} x, and #{rovers[x].y} y"
+      x
     end
   end
 end
